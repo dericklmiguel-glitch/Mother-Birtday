@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossas Memórias - Álbum de Fotos</title>
+    <link rel="stylesheet" href="album.css">
+</head>
+<body>
+
+    <div class="galeria-container">
+        <header class="galeria-header">
+            <a href="index.html" class="btn-voltar">← Voltar para o início</a>
+            <h1>Nosso Álbum de Memórias</h1>
+            <p>Os melhores momentos do seu lado guardados aqui.</p>
+        </header>
+
+        <main class="album-grid">
+            
+            <div class="foto-card" onclick="abrirModal(this)">
+                <img src="./Img/img1.jpg" alt="Memória 1">
+            </div>
+
+            <div class="foto-card" onclick="abrirModal(this)">
+                <img src="./Img/img2.jpg" alt="Memória 2">
+            </div>
+
+            <div class="foto-card" onclick="abrirModal(this)">
+                <img src="./Img/img3.jpg" alt="Memória 3">
+            </div>
+
+            <div class="foto-card" onclick="abrirModal(this)">
+                <img src="./Img/img4.jpg" alt="Memória 4">
+            </div>
+
+            <div class="foto-card" onclick="abrirModal(this)">
+                <img src="./Img/img5.jpg" alt="Memória 5">
+            </div>
+
+            <div class="foto-card" onclick="abrirModal(this)">
+                <img src="./Img/img6.jpg" alt="Memória 6">
+            </div>
+
+            <div class="foto-card" onclick="abrirModal(this)">
+                <img src="./Img/img7.jpg" alt="Memória 7">
+            </div>
+
+            <div class="foto-card" onclick="abrirModal(this)">
+                <img src="./Img/img8.jpg" alt="Memória 8">
+            </div>
+
+            <div class="foto-card" onclick="abrirModal(this)">
+                <img src="./Img/img9.jpg" alt="Memória 9">
+            </div>
+
+            <div class="foto-card" onclick="abrirModal(this)">
+                <img src="./Img/img10.jpg" alt="Memória 10">
+            </div>
+
+            <div class="foto-card" onclick="abrirModal(this)">
+                <img src="./Img/img11.jpg" alt="Memória 11">
+            </div>
+
+            <div class="foto-card" onclick="abrirModal(this)">
+                <img src="./Img/img12.jpg" alt="Memória 12">
+            </div>
+
+        </main>
+    </div>
+
+    <div id="meuModal" class="modal" onclick="fecharModal()">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="imgModal">
+    </div>
+
+    <script src="album.js"></script>
+</body>
+</html>
